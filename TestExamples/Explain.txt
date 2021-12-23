@@ -1,0 +1,8 @@
+Read file from memory
+get topology from the file which its id is "top1",
+write the same topology to another file,
+query about devices in the topology,
+query about devices  given topology id,
+query about device connected to a given netlist given topology id,
+delete topology from memory,
+query aboutt the topology in the memory.
