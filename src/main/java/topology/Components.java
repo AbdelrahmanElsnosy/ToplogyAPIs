@@ -17,6 +17,18 @@ public class Components {
 	public String getId() {
 		return id;
 	}
+	public Map<String, Double> getNumData() {
+		return numData;
+	}
+	public void setNumData(Map<String, Double> numData) {
+		this.numData = numData;
+	}
+	public Map<String, String> getNetList() {
+		return netList;
+	}
+	public void setNetList(Map<String, String> netList) {
+		this.netList = netList;
+	}
 	public void setType(String type) {
 		this.type=type;
 	}
