@@ -2,10 +2,12 @@ package test;
 
 import static org.junit.Assert.assertEquals;
 
+import org.junit.Test;
+
 import API.TopologyApi;
 
 public class TestWrite {
-
+@Test
 	public void main() {
 		//read the same file and write it back as json file.
 		TopologyApi topologyApi = new TopologyApi();
